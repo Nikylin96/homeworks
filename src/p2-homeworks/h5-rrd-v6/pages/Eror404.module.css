@@ -1,0 +1,17 @@
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin: 120px ;
+    flex-direction: column;
+}
+
+.numbers {
+    color: red;
+    font-size: 100px;
+    font-weight: bold;
+}
+.strings {
+    font-size: 50px;
+}

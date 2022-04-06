@@ -1,0 +1,28 @@
+
+.accordion {
+    position: relative;
+    left: -170px;
+    width: 180px;
+    height: 20px;
+    border-right: 20px solid red;
+    margin-top: 5px;
+    transition: left .2s linear;
+}
+
+.accordion:hover {
+    left: 0px;
+}
+
+.first {
+    text-decoration: none;
+    color: red;
+}
+.second {
+    text-decoration: none;
+    color: blue;
+}
+.three {
+    text-decoration: none;
+    color: black;
+}
+

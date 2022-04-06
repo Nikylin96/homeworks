@@ -1,0 +1,53 @@
+.osn {
+    display: flex;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666;
+    margin-top: 30px;
+}
+.messageBlock {
+    width: 240px;
+    border-radius: 10px 10px 10px 0;
+    color: red;
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: mediumspringgreen;
+    position: relative;
+}
+
+.messageBlock::before,
+.messageBlock::after {
+    content:"";
+    position: absolute;
+    left: -20px; top: 80px;
+    border: 10px solid transparent;
+    border-right: 10px solid mediumspringgreen;
+    border-bottom: 10px solid mediumspringgreen;
+}
+
+
+.names {
+    font-weight: bolder;
+    color: black;
+    margin-bottom: -20px;
+    margin-left: 15px;
+}
+.text {
+    color: white;
+    margin-left: 15px;
+    margin-bottom: -20px;
+}
+.time {
+    color: black;
+    font-size: 18px;
+    text-align: right;
+    opacity: .3;
+    margin-bottom: -20px;
+    margin-right: 5px;
+
+}
+

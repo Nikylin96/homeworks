@@ -1,0 +1,24 @@
+.input:focus {
+    outline: none;
+    border: yellow solid 2px;
+}
+
+.superInput {
+    margin: 5px;
+    background: cornflowerblue;
+    color: whitesmoke;
+}
+
+.errorInput {
+    margin: 5px;
+    background: red;
+    color: whitesmoke;
+
+    border: mediumspringgreen solid 2px;
+}
+
+.error {
+    color: pink;
+    height: 21px;margin-left: 10px;
+
+}
